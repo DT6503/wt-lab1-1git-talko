@@ -165,6 +165,47 @@ footer {
     margin-top: 40px;
 }
 
+.main-bg {
+    position: relative;
+}
+
+.main-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('fon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    z-index: 0;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.main-bg > * {
+    position: relative;
+    z-index: 1;
+}
+
+.video-block {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 560px;
+    border: 3px solid #ffd54f;
+    border-radius: 12px;
+    background: #000;
+}
+
+.ogorod-photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100%;
+}
+
+
 @media (max-width: 768px) {
     .hero {
         padding: 40px 15px 55px;
