@@ -1,1 +1,1 @@
-Project: how i spent my summer vacation!!!
+Project: How i spent my summer vacation!!!
